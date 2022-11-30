@@ -4,3 +4,28 @@
 body {
     background-color: var.$off-white;
 }
+
+#read-btn {
+    background-color: var.$soft-red;
+    color: var.$off-white;
+    width: 150px;
+    padding: 10px 25px;
+}
+
+#news {
+    background-color: var.$very-dark-blue;
+    color: var.$off-white;
+}
+
+#news-title {
+    color: var.$soft-orange;
+}
+
+.news-text {
+    color: var.$dark-grayish-blue;
+}
+
+.num-container {
+    display: flex;
+    flex-direction: row;
+}
