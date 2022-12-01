@@ -1,0 +1,10 @@
+@use '../utility/variables' as var;
+
+.num-text,
+.number {
+    color: var.$grayish-blue;
+}
+
+.news-text {
+    color: var.$dark-grayish-blue;
+}
