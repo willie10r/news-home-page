@@ -37,27 +37,55 @@ footer {
   margin-top: 30px;
 }
 
+body {
+  font-family: inter;
+}
+
 .num-text,
 .number {
   color: hsl(233deg, 8%, 79%);
+}
+
+#news-title {
+  font-size: 1.9rem;
 }
 
 .news-text {
   color: hsl(236deg, 13%, 42%);
 }
 
-ul {
-  list-style: none;
+#read-btn {
+  font-size: larger;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 2.7rem;
+  font-weight: 800;
 }
 
 .nav-bar {
-  background-color: aliceblue;
+  background-color: hsl(36deg, 100%, 99%);
   display: none;
   position: fixed;
   top: 0px;
   bottom: 0px;
   right: 0px;
   left: 125px;
+}
+
+#menu-close {
+  margin: 20px auto auto 200px;
+}
+
+ul {
+  list-style: none;
+  margin-top: 50px;
+}
+
+li {
+  margin: 20px auto;
+  font-size: x-large;
 }
 
 #main-mobile-pic {
@@ -76,7 +104,7 @@ ul {
 }
 
 #icon {
-  margin: 20px auto 20px 0px;
+  margin: 10px auto 20px 0px;
 }
 
 #menu {

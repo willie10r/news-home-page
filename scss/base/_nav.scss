@@ -1,13 +1,25 @@
-ul {
-    list-style: none;
-}
+@use '../utility/variables' as var;
 
 .nav-bar {
-    background-color: aliceblue;
+    background-color: var.$off-white;
     display: none;
     position: fixed;
     top: 0px;
     bottom: 0px;
     right: 0px;
     left: 125px;
+}
+
+#menu-close {
+    margin: 20px auto auto 200px
+}
+
+ul {
+    list-style: none;
+    margin-top: 50px;
+}
+
+li {
+    margin: 20px auto;
+    font-size: x-large;
 }
