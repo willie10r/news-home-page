@@ -115,4 +115,39 @@ li {
 
 #menu:hover {
   background-color: gray;
+}
+
+@media (min-width: 1440px) {
+  header {
+    grid-area: "header";
+  }
+  main {
+    grid-area: "main";
+  }
+  footer {
+    grid-area: "footer";
+  }
+  .grid-container {
+    margin: 0px;
+    display: grid;
+    grid-template-areas: "header header header" "header main footer" "header main footer";
+  }
+  #intro {
+    grid-area: "intro";
+  }
+  #news {
+    grid-area: "news";
+  }
+  #num-area {
+    grid-area: "num";
+    display: flex;
+    flex-direction: row;
+  }
+  .sec-container {
+    display: grid;
+    grid-template-areas: "intro num" "intro num" "news num";
+  }
+  #main-mobile-pic {
+    content: url(../assets/images/image-web-3-desktop.jpg);
+  }
 }/*# sourceMappingURL=styles.css.map */
