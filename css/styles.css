@@ -120,6 +120,8 @@ li {
 @media (min-width: 1440px) {
   header {
     grid-area: "header";
+    display: flex;
+    flex-direction: row;
   }
   main {
     grid-area: "main";
@@ -128,12 +130,26 @@ li {
     grid-area: "footer";
   }
   .grid-container {
-    margin: 0px;
+    margin: 40px 80px;
     display: grid;
     grid-template-areas: "header header header" "header main footer" "header main footer";
   }
+  #main-mobile-pic {
+    grid-area: "pic";
+  }
+  #int-1 {
+    grid-area: "title";
+  }
+  #int-2 {
+    grid-area: "paragraph";
+  }
+  #read-btn {
+    grid-area: "btn";
+  }
   #intro {
     grid-area: "intro";
+    display: grid;
+    grid-template-areas: "pic pic" "title paragraph" "title btn";
   }
   #news {
     grid-area: "news";
@@ -149,5 +165,21 @@ li {
   }
   #main-mobile-pic {
     content: url(../assets/images/image-web-3-desktop.jpg);
+  }
+  #menu,
+#menu-close {
+    display: none;
+  }
+  ul {
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0px;
+  }
+  li {
+    margin: 20px;
+  }
+  .nav-bar {
+    display: block;
+    position: static;
   }
 }/*# sourceMappingURL=styles.css.map */
