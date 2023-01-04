@@ -15,6 +15,10 @@ body {
     margin: 10px auto 80px 0px
 }
 
+#read-btn:hover {
+    background-color: var.$very-dark-blue;
+}
+
 #news {
     background-color: var.$very-dark-blue;
     color: var.$off-white;
@@ -37,6 +41,11 @@ body {
     flex-direction: row;
 
 }
+
+.num-title:hover {
+    color: var.$soft-orange;
+}
+
 
 
 footer {
